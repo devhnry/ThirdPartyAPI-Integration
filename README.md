@@ -18,21 +18,21 @@ Welcome to the **Third-Party-API Integration API** repository. This backend serv
 
 ## Usage
 
-1. **Retrieve all books**:
+1. **Retrieve a post by ID**:
     - **Request**: `GET /api/getPost/{id}`
     - **Response**: Returns a Post based on the ID
 
-2. **Create a new book**:
+2. **Create a new POST**:
     - **Request**: `POST /api/insertPost`
     - **Body**: JSON object containing post details.
     - **Response**: Returns the newly created post with its assigned ID.
 
-3. **Update an existing book**:
+3. **Update an existint post**:
     - **Request**: `PUT /api/updatePost/{id}`
     - **Body**: JSON object containing updated post details.
     - **Response**: Returns the updated post details.
 
-4. **Delete a book by ID**:
+4. **Delete a post by ID**:
     - **Request**: `DELETE /api/deletePost/{id}`
     - **Response**: Deletes the book with the specified ID from the database and Returns a Message.
 
